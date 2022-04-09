@@ -1,6 +1,6 @@
 # Masked ORB-SLAM3
 
-This is Team 6's final project git repository for EECS 568: Mobile Robotics. The title of our project is Visual Lidar Odometry and Mapping with KITTI, and team members include: Aditya Om, Aman Kushwaha, Kyle Liebler, Ping-Hua Lin and Zhuowen Shen.
+This is Team 6's final project git repository for EECS 568: Mobile Robotics. The title of our project is Visual Lidar Odometry and Mapping with KITTI, and team members include: [Aditya Om](https://www.linkedin.com/in/adityaom/), [Aman Kushwaha](https://www.linkedin.com/in/aman-kushwaha-19b4681b1/), [Kyle Liebler](https://www.linkedin.com/in/lieblius/), Ping-Hua Lin and [Zhuowen Shen](https://www.linkedin.com/in/zhuowenshen7558/).
 
 You can see the mask used for our Masked ORB-SLAM running here: 
 <p align="center">
@@ -16,7 +16,8 @@ First, we recommend you read through our paper uploaded on this repository/docs.
  ![ORB-SLAM3 Architecture](media/masked_orbslam_arch2.png)
 </p>
 
-## project Overview
+## Project Overview
+
 
 
 
