@@ -16,13 +16,9 @@ First, we recommend you read through our paper uploaded on this repository/docs.
  ![ORB-SLAM3 Architecture](media/masked_orbslam_arch2.png)
 </p>
 
-## Installation Instructions
+## project Overview
 
-First you will need to install [Ubuntu 16.04](http://releases.ubuntu.com/16.04.4/) in order to run ROS-Kinetic. We recommend primary or dual booting Ubuntu as we encountered many issues using virtual machines, which are discussed in detail in our final paper.
-Next up, you will need to install [ROS-Kinetic](http://wiki.ros.org/kinetic) as our algorithm has only been validated on this version of ROS. You can find a detailed installation guide [here](http://wiki.ros.org/kinetic/Installation).
-After that step, you will need to download some [KITTI Raw Data](http://www.cvlibs.net/datasets/kitti/raw_data.php). We recommend reading through their [odometry eval kit](http://kitti.is.tue.mpg.de/kitti/devkit_odometry.zip) to decide which Sequence you would like to run.
-Following this, you will need to download and install the [kitti2bag utility](https://github.com/tomas789/kitti2bag). Detailed instructions can be found within the github README.md. Convert your KITTI raw data to a ROS .bag file and leave it in your `~/Downloads` directory.
-As a final prerequisite, you will need to have Matlab installed to run our benchmarking code, although it is not necessary in order
+
 
 ---
 ### Running the docker
