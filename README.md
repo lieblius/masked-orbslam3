@@ -58,4 +58,4 @@ You can use vscode remote development (recommended) or sublime to change codes.
 
 Thank you to Maani Ghaffari Jadidi our EECS 568 instructor, as well as the GSIs Tzu-Yuan (Justin) Lin and Jingyu (JY) Song for all the support they provided this semester. You can find a link to our course website [here](http://robots.engin.umich.edu/mobilerobotics/).
 
-We would like to acknowledge  Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, José M. M. Montiel, Juan D. Tardos., for their original papers and source code, as well as Berta Bescos, José M. Fácil, Javier Civera and José Neira for their work in DynaSLAM. 
+We would like to acknowledge  Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, José M. M. Montiel, Juan D. Tardos., for their work in ORB-SLAM3, as well as Berta Bescos, José M. Fácil, Javier Civera and José Neira for their work in DynaSLAM. 
