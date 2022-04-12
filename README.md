@@ -10,7 +10,7 @@ You can see the mask used for our Masked ORB-SLAM running here:
 
 You can also see our implementation running here:
 
-<p align="center"> ![KITTI mask](media/demo.gif) </p>
+<p align="center"> ![KITTI mask](media/demo.gif =600x340) </p>
 
 ## Getting Started
 
