@@ -86,13 +86,7 @@ Once the container can run the sample data from the instructions, you may add yo
 
 Our team members are: 
 
- - [**Aditya Om**](https://www.linkedin.com/in/adityaom/)
-
- - [**Aman Kushwaha**](https://www.linkedin.com/in/raghav-varshney/)
-
-- [**Kyle Liebler**](https://www.linkedin.com/in/lieblius/)
-- [**Ping-Hua Lin**](https://www.linkedin.com/in/michaelphlin/) 
-- [**Zhuowen Shen**](https://www.linkedin.com/in/zhuowenshen7558/)
+ [**Aditya Om**](https://www.linkedin.com/in/adityaom/), [**Aman Kushwaha**](https://www.linkedin.com/in/raghav-varshney/), [**Kyle Liebler**](https://www.linkedin.com/in/lieblius/), [**Ping-Hua Lin**](https://www.linkedin.com/in/michaelphlin/), [**Zhuowen Shen**](https://www.linkedin.com/in/zhuowenshen7558/)
 
 ---
 
@@ -106,3 +100,8 @@ We would like to also acknowledge our profound gratitude towards Carlos Campos, 
 
 ## References
 The papers that we have referred for ideation, pipeline architecture and bench-marking of results against already existing localization results <a href = "https://gitlab.eecs.umich.edu/v_slam/papers">can be found here.</a>
+
+---
+
+## License
+GPL 
