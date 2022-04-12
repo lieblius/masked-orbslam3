@@ -1,11 +1,11 @@
 # Masked ORB-SLAM3
 
-This is Team 6's final project git repository for EECS 568: Mobile Robotics. The title of our project is Visual Lidar Odometry and Mapping with KITTI, and team members include: [Aditya Om](https://www.linkedin.com/in/adityaom/), [Aman Kushwaha](https://www.linkedin.com/in/aman-kushwaha-19b4681b1/), [Kyle Liebler](https://www.linkedin.com/in/lieblius/), [Ping-Hua Lin](https://www.linkedin.com/in/michaelphlin/) and [Zhuowen Shen](https://www.linkedin.com/in/zhuowenshen7558/).
+This is Team 6's final project git repository for EECS 568: Mobile Robotics. The title of our project is Masked ORB-SLAM3: Dynamic Element Exclusion for Autonomous Driving Scenarios Using Masked R-CNN for Increased Localization Accuracy. Our team members include: [Aditya Om](https://www.linkedin.com/in/adityaom/), [Aman Kushwaha](https://www.linkedin.com/in/aman-kushwaha-19b4681b1/), [Kyle Liebler](https://www.linkedin.com/in/lieblius/), [Ping-Hua Lin](https://www.linkedin.com/in/michaelphlin/) and [Zhuowen Shen](https://www.linkedin.com/in/zhuowenshen7558/).
 
 You can see the mask used for our Masked ORB-SLAM running here: 
 <p align="center">
 
- ![KITTI mask](media/mask_KITTI.gif)
+ | This is a placeholder text  | ![KITTI mask](media/mask_KITTI.gif)
 </p>
 
 You can also see our implementation running here:
