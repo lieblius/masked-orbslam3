@@ -80,7 +80,7 @@ You can use vscode remote development (recommended) or sublime to change codes.
 
 Once the container can run the sample data from the instructions, you may add your own data (for example from the KITTI dataset) into the Datasets folder with the same hierarchy. To use our masked implementation, clone our repository and run the `build.sh` command. Then run `mono_kitti` (looking at `euroc_examples.sh` can show examples of how the original implementation is run) with an additional command line argument appended at the end containing the directory of the segmentation masks. If you are using WSL make sure you are running an x-server so you can see the GUI.
 
----
+<br>
 
 ## Project Team 
 
@@ -88,7 +88,7 @@ Our team members are:
 
  [**Aditya Om**](https://www.linkedin.com/in/adityaom/), [**Aman Kushwaha**](https://www.linkedin.com/in/raghav-varshney/), [**Kyle Liebler**](https://www.linkedin.com/in/lieblius/), [**Ping-Hua Lin**](https://www.linkedin.com/in/michaelphlin/), [**Zhuowen Shen**](https://www.linkedin.com/in/zhuowenshen7558/)
 
----
+<br>
 
 ## Acknowledgments
 
@@ -96,12 +96,12 @@ We express our sincere thanks to our EECS 568 instructor <a href="https://roboti
 
 We would like to also acknowledge our profound gratitude towards Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, José M. M. Montiel, Juan D. Tardos., for their seminal work in <a href="https://gitlab.eecs.umich.edu/v_slam/papers/-/blob/main/ORB-SLAM3.pdf">ORB-SLAM3</a>, as well as Berta Bescos, José M. Fácil, Javier Civera and José Neira for their work in <a href="">DynaSLAM.</a> 
 
----
+<br>
 
 ## References
 The papers that we have referred for ideation, pipeline architecture and bench-marking of results against already existing localization results <a href = "https://gitlab.eecs.umich.edu/v_slam/papers">can be found here.</a>
 
----
+<br>
 
 ## License
 GPL 
