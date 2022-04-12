@@ -312,38 +312,72 @@ Frame::Frame( const cv::Mat &mask, const cv::Mat &imGray, const double &timeStam
 #endif
     // Add mask for mvKeys from ORB_Extractors features to mask features
 
+    if(mvKeys.empty())
+        return;
+
     // std::cout<< "Frame.cc Orbsratctor start "<< std::endl;
     int M = mvKeys.size();
+    std::vector<cv::KeyPoint> _mvKeys;
+    cv::Mat _mDescriptors;
+    // std::vector<cv::KeyPoint> _mvKeys;
+    
     // After intiatlization: 1000< N < 5000  KITTI data set lower bound is 2000
-    cout<<"Feature numeber = "<< M <<endl;
+    // cout<<"Feature numeber = "<< M <<endl;
+    // int num = 0;
     // if (N < 9000 && N!=0){
     //     auto it =  mvKeys.begin();
     //     while (it!= mvKeys.end()){
     //         int x_r = floor(it->pt.x);
     //         int y_r = floor(it->pt.y);
     //         if (mask.at<float>(y_r, x_r)>0 ||mask.at<float>(y_r+1, x_r)>0 ||mask.at<float>(y_r, x_r+1)>0 || mask.at<float>(y_r+1, x_r+1)>0 ){
-    //             it = mvKeys.erase(it);
+    //             // it = mvKeys.erase(it);
+    //             num+=1;
     //         }
     //         else {
-    //             ++it;
     //         }
+    //         ++it;
     //     }
-    // // //     cout<<"x[0] = "<< mvKeys[0].pt.x<< " "; 
-    // // //     cout<<"y[0] = "<< mvKeys[0].pt.y<< " ";
+    //     // for(int i=0; i<num; ++i){
+    //     //     mvKeys.push_back(mvKeys[i]);
+    //     // }
     // }
+    // cout <<"msk channel="<< mask.channels() << endl;
+    // cout <<"msk size ="<< mask.size() << endl;
+ 
+    
+    if (M<9000 && M!=0){
+        
+        int num=0;
+        for (int i =0; i< M; ++i){
+            int x_r = floor(mvKeys[i].pt.x);
+            int y_r = floor(mvKeys[i].pt.y);
+            // cout << "mask data" << mask.at<float>(y_r, x_r) << endl;
+            if (mask.at<cv::Vec4b>(y_r, x_r)[1]>0 ||mask.at<cv::Vec4b>(y_r+1, x_r)[1]>0 ||mask.at<cv::Vec4b>(y_r, x_r+1)[1]>0 || mask.at<cv::Vec4b>(y_r+1, x_r+1)[1]>0 ){
+                    num+=1;
+                }
+            else {
+                _mvKeys.push_back(mvKeys[i]);
+                _mDescriptors.push_back(mDescriptors.row(i));
+                }
+        }
+        std::cout<< "Erase featrues number ="<<  num << std::endl;
+
+        mvKeys = _mvKeys;
+        mDescriptors =_mDescriptors;
+    }
+
+    N = mvKeys.size();
+
+
     // cout<<endl;
     
     // std::cout<< "Frame.cc Orbsratctor end "<< std::endl;
     
 
     // update N with new key number
-    N = mvKeys.size();
-    std::cout<< "Erase featrues number ="<<  M-N << std::endl;
+    // std::cout<< "Erase featrues number ="<<  M-N << std::endl;
     cout<<"Feature numeber = "<< N <<endl;
 
-
-    if(mvKeys.empty())
-        return;
 
     UndistortKeyPoints();
 

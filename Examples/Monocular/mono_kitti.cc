@@ -76,6 +76,8 @@ int main(int argc, char **argv)
         // Read image from file
         im = cv::imread(vstrImageFilenames[ni],cv::IMREAD_UNCHANGED);
         msk = cv::imread(vstrMaskFilenames[ni],cv::IMREAD_UNCHANGED);
+        // cout <<"msk channel="<< msk.channels() << endl;
+        // cout <<"msk size ="<< msk.size() << endl;
         // msk = cv::imread(vstrImageFilenames[ni],cv::IMREAD_UNCHANGED);
         double tframe = vTimestamps[ni];
 
@@ -131,7 +133,9 @@ int main(int argc, char **argv)
     cout << "mean tracking time: " << totaltime/nImages << endl;
 
     // Save camera trajectory
-    SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");    
+    SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt"); 
+    SLAM.SaveTrajectoryKITTI("FullFrameTrajectory.txt");    
+
 
     return 0;
 }
