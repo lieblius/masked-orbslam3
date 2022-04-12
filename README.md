@@ -4,9 +4,9 @@ This is Team 6's final project git repository for EECS 568: Mobile Robotics. The
 
 You can see the mask used for our Masked ORB-SLAM running here: 
 <p align="center">
-<img src="https://gitlab.eecs.umich.edu/v_slam/orb-slam_dynamic/-/raw/main/media/mask_KITTI.gif" alt="mask_KITTI" width="900"/>
+<img src="https://gitlab.eecs.umich.edu/v_slam/orb-slam_dynamic/-/raw/main/media/mask_KITTI.gif" alt="mask_KITTI" width="1200"/>
 
-#![KITTI mask](media/mask_KITTI.gif)
+<!--![KITTI mask](media/mask_KITTI.gif) -->
 </p>
 
 You can also see our implementation running here:
