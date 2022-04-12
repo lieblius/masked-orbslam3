@@ -105,7 +105,6 @@ We had divided the work responsibility amongst ourselves in the following manner
 | 5.     | Bench-marking research & Comparison | Aditya, Ping-Hua |
 | 6.     | Documentation | All |
 | 7.     | Project website and Git | Kyle, Aditya |
-|--------|---------------------------|-------------------|
 
 <br>
 
