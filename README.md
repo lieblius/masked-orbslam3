@@ -23,7 +23,7 @@ First, we recommend you read through our paper uploaded on this repository/docs.
 
 
 ---
-### Running the docker
+### Running the Docker Image
 
 This docker is based on ros melodic ubuntu 18.
 
@@ -54,6 +54,12 @@ To run a test example:
 You can use vscode remote development (recommended) or sublime to change codes.
 - `docker exec -it orbslam3 bash`
 - `subl /ORB_SLAM3`
+
+---
+
+### Running Our Implementation
+
+Once the container can run the sample data from the instructions, you may add your own data (for example from the KITTI dataset) into the Datasets folder with the same hierarchy. To use our masked implementation, clone this repository and run the `build.sh` command. Then run `mono_kitti` (looking at `euroc_examples.sh` can show examples of how the original implementation is run) with an additional command line argument appended at the end containing the directory of the segmentation masks. If you are using WSL make sure you are running an x-server so you can see the GUI.
 
 ## Acknowledgments
 
