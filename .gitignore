@@ -29,6 +29,7 @@ Examples/ROS/ORB_SLAM3/CMakeLists.txt.user
 Examples/ROS/ORB_SLAM3/build/
 
 KeyFrameTrajectory.txt
+FullFrameTrajectory.txt
 CameraTrajectory.txt
 kf_*.txt
 f_*.txt
@@ -47,3 +48,5 @@ cmake-build-debug/
 
 *.pyc
 *.osa
+
+.vscode/
