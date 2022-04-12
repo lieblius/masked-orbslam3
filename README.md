@@ -11,7 +11,9 @@ You can see the mask used for our Masked ORB-SLAM running here:
 
 You can also see our implementation running here:
 
-<p align="center"> ![KITTI mask](media/demo.gif =900x510) </p>
+<img src="https://gitlab.eecs.umich.edu/v_slam/orb-slam_dynamic/-/raw/main/media/demo.gif" alt="masked-ORB-SLAM3-demo" width="1200"/>
+
+<!--> <p align="center"> ![KITTI mask](media/demo.gif =900x510) </p> -->
 
 ## Getting Started
 
