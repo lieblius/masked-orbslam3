@@ -8,6 +8,10 @@ You can see the mask used for our Masked ORB-SLAM running here:
  ![KITTI mask](media/mask_KITTI.gif)
 </p>
 
+You can also see our implementation running here:
+
+<p align="center"> ![KITTI mask](media/demo.gif) </p>
+
 ## Getting Started
 
 First, we recommend you read through our paper uploaded on this repository/docs. Next, read the two directly related works: [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3?msclkid=d3a88f5eb81f11ec968f0535c7080186) and [DynaSLAM](https://github.com/BertaBescos/DynaSLAM?msclkid=fe9695b7b81f11ec9d82fc4c92af772c)..
