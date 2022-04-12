@@ -19,7 +19,7 @@ First, we recommend you read through our paper uploaded on this repository/docs.
 
 ## Project Overview
 
-
+To observe and remove the impact of dynamic objects in ORB-SLAM3 we selected one of the most dynamic datasets from the KITTI datasets. We observed that the ORB-SLAM 3 performs better if the dynamic content from the image frames is removed. We remove dynamic objects from the images by performing instance segmentation and then passing binary masks into the ORB-SLAM3 pipeline. We then use these masks to remove tracking points that overlap with our masks.
 
 
 ---
