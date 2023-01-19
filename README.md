@@ -3,6 +3,9 @@
 <p align="center">
  <a href="https://www.youtube.com/watch?v=7ju1BXNozT4"><img src="https://i.imgur.com/dI0mpSY.png" alt="ORB-SLAM3 Architecture", width="240"/></a>
 </p>
+<p align="center">
+ <a href="media/report.pdf">Report</a>
+</p>
 
 ## Project Overview
 
