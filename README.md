@@ -1,5 +1,9 @@
 # Masked ORB-SLAM3
 
+<p align="center">
+ <a href="https://www.youtube.com/watch?v=7ju1BXNozT4"><img src="https://i.imgur.com/dI0mpSY.png" alt="ORB-SLAM3 Architecture", width="240"/></a>
+</p>
+
 ## Project Overview
 
 This is <strong>Team 6</strong>'s final project git repository for <a href="https://robots.engin.umich.edu/mobilerobotics/">EECS 568: Mobile Robotics course</a> at <a href="https://robotics.umich.edu/">University of Michigan</a>. The title of our project is <strong>Masked ORB-SLAM3: Dynamic Element Exclusion for Autonomous Driving Scenarios Using Masked R-CNN for Increased Localization Accuracy.</strong>
@@ -20,21 +24,21 @@ First, we recommend you read through our paper uploaded on this repository/docs.
 Thus, based off the obvious inaccuracy in semantic masks for the ORB-SLAM, we propose the following architecture for our <strong>"Masked ORB-SLAM3 pipeline</strong>":
 
 <p align="center">
- ![ORB-SLAM3 Architecture](media/masked_orbslam_arch2.png)
+ <img src="https://raw.githubusercontent.com/lieblius/masked-orbslam3/main/media/masked_orbslam_arch2.png" alt="ORB-SLAM3 Architecture"/>
 </p>
 
 <br>
 
 The visualization of masks used for our framework can be seen below: 
 <p align="center">
-<img src="https://gitlab.eecs.umich.edu/v_slam/orb-slam_dynamic/-/raw/main/media/mask_KITTI.gif" alt="mask_KITTI" width="1200"/>
+<img src="https://raw.githubusercontent.com/lieblius/masked-orbslam3/main/media/mask_KITTI.gif" alt="mask_KITTI" width="1200"/>
 
 <!--![KITTI mask](media/mask_KITTI.gif) -->
 </p>
 
 A visualization of our implementation can finally be seen below:
 
-<img src="https://gitlab.eecs.umich.edu/v_slam/orb-slam_dynamic/-/raw/main/media/demo.gif" alt="masked-ORB-SLAM3-demo" width="1200"/>
+<img src="https://raw.githubusercontent.com/lieblius/masked-orbslam3/main/media/demo.gif" alt="masked-ORB-SLAM3-demo" width="1200"/>
 
 <br>
 
